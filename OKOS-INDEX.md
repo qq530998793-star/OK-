@@ -7,10 +7,10 @@
 OKOS Chief System Architect
 
 ## 更新时间
-2026-07-03
+2026-07-04
 
 ## 版本号
-v1.2.0
+v1.2.3
 
 ## 引用关系
 - 仓库入口：[README.md](README.md)
@@ -61,6 +61,7 @@ L1 Knowledge 的唯一可信来源：
 - 赛事类型：[06-events/event-types.md](06-events/event-types.md)
 - 社群模型：[07-community/community-model.md](07-community/community-model.md)
 - 玩家生命周期：[07-community/user-lifecycle.md](07-community/user-lifecycle.md)
+- 社群与赛事运营观察：[07-community/operations-observations.md](07-community/operations-observations.md)
 - 合作伙伴模型：[13-partnerships/partnership-model.md](13-partnerships/partnership-model.md)
 - 合作伙伴类型：[13-partnerships/partner-types.md](13-partnerships/partner-types.md)
 

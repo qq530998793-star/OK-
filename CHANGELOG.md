@@ -7,15 +7,22 @@
 OKOS Governance Owner
 
 ## 更新时间
-2026-07-03
+2026-07-04
 
 ## 版本号
-v1.2.2
+v1.2.3
 
 ## 引用关系
 - 版本规范：[00-system/versioning-policy.md](00-system/versioning-policy.md)
 - 治理规则：[GOVERNANCE.md](GOVERNANCE.md)
 - 企业宪章：[01-strategy/enterprise-charter.md](01-strategy/enterprise-charter.md)
+
+## v1.2.3
+### 2026-07-04
+- 新增社群与赛事运营观察 OBS-2026-07-04-01。
+- 记录两套日常福利在两个社群反馈良好，以及当日对抗赛参赛选手活跃的业务实证。
+- 将两张“今日悬赏”海报作为证据归档。
+- 明确该观察尚不构成因果或长期留存结论，并补充后续量化验证要求。
 
 ## v1.2.2
 ### 2026-07-03

@@ -7,10 +7,10 @@
 Event Operations Owner
 
 ## 更新时间
-2026-07-03
+2026-07-04
 
 ## 版本号
-v1.0.0
+v1.1.0
 
 ## 引用关系
 - 赛事体系：[../_source/06-events/event-system-overview.md](../_source/06-events/event-system-overview.md)
@@ -26,6 +26,7 @@ v1.0.0
 - [社群模型](../_source/07-community/community-model.md)
 - [玩家生命周期](../_source/07-community/user-lifecycle.md)
 - [玩家互动](../_source/07-community/player-engagement.md)
+- [社群与赛事运营观察](../_source/07-community/operations-observations.md)
 
 ## 后续待完成内容
 - 根据活动体系持续维护导航。
