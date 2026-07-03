@@ -5,6 +5,38 @@ docs_dir: docs
 site_dir: site
 use_directory_urls: true
 
+watch:
+  - README.md
+  - CHANGELOG.md
+  - GLOSSARY.md
+  - GOVERNANCE.md
+  - OKOS-INDEX.md
+  - ROADMAP.md
+  - 00-system
+  - 01-strategy
+  - 02-brand
+  - 03-operations
+  - 04-stores
+  - 05-teams
+  - 06-events
+  - 07-community
+  - 08-product
+  - 09-data
+  - 10-ai
+  - 11-marketing
+  - 12-sales
+  - 13-partnerships
+  - 14-legal-compliance
+  - 15-finance
+  - 16-hr-training
+  - 17-templates
+  - 18-playbooks
+  - 19-sops
+  - 20-decision-records
+  - 21-prompts
+  - 22-archive
+  - tools
+
 theme:
   name: material
   language: zh
@@ -44,4 +76,3 @@ nav:
 
 extra:
   generator: false
-

@@ -4,7 +4,7 @@ import mkdocs_gen_files
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED_PARTS = {".git", ".github", "docs", "site"}
+EXCLUDED_PARTS = {".git", ".github", ".venv-docs", "docs", "site"}
 
 
 for source in sorted(ROOT.rglob("*.md")):

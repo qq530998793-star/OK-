@@ -1,4 +1,4 @@
-# OKOS V1.2
+# OKOS V1.2.1
 
 ## 用途
 OKOS 是 OK赛事联盟的企业操作系统仓库入口，用于统一管理战略、运营、门店、赛事、社群、产品、数据、AI 协同与企业标准。
@@ -10,7 +10,7 @@ OKOS Chief System Architect
 2026-07-03
 
 ## 版本号
-v1.2.0
+v1.2.1
 
 ## 引用关系
 - 全局索引：[OKOS-INDEX.md](OKOS-INDEX.md)
@@ -33,6 +33,8 @@ OKOS 的六层基线已完成并确认：
 
 ## 知识库网站
 MkDocs 使用 `docs/` 作为发布入口，并在构建时读取现有权威 Markdown。网站导航包含 Quick、Playbooks、Training、Rules、Reports 和 Activity。
+
+开发服务监听全部 OKOS 模块。服务运行期间，保存任一权威 Markdown 后，网站会自动重新构建并刷新。
 
 本地预览：
 
