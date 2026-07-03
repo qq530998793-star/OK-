@@ -1,0 +1,8 @@
+# 用途: 定义 OKOS 仓库文件责任人。
+# 负责人: OKOS Governance Owner
+# 更新时间: 2026-07-03
+# 版本号: v1.1.0
+# 引用关系: ../00-system/repository-governance.md
+# 后续待完成内容: 替换为真实人类 GitHub 账号或团队；不得配置 AI 账号。
+
+* @okos-governance

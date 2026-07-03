@@ -1,0 +1,18 @@
+# OKOS local artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and workspace state
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.bak
+
+# Local exports and generated files
+exports/
+dist/
+build/
+*.log
+
