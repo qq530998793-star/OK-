@@ -1,0 +1,78 @@
+site_name: OKOS
+site_description: OK赛事联盟企业知识系统
+site_url: ""
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+watch:
+  - README.md
+  - CHANGELOG.md
+  - GLOSSARY.md
+  - GOVERNANCE.md
+  - OKOS-INDEX.md
+  - ROADMAP.md
+  - 00-system
+  - 01-strategy
+  - 02-brand
+  - 03-operations
+  - 04-stores
+  - 05-teams
+  - 06-events
+  - 07-community
+  - 08-product
+  - 09-data
+  - 10-ai
+  - 11-marketing
+  - 12-sales
+  - 13-partnerships
+  - 14-legal-compliance
+  - 15-finance
+  - 16-hr-training
+  - 17-templates
+  - 18-playbooks
+  - 19-sops
+  - 20-decision-records
+  - 21-prompts
+  - 22-archive
+  - tools
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    scheme: default
+    primary: white
+    accent: indigo
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - gen-files:
+      scripts:
+        - tools/generate_mkdocs_pages.py
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Quick: Quick/index.md
+  - Playbooks: Playbooks/index.md
+  - Training: Training/index.md
+  - Rules: Rules/index.md
+  - Reports: Reports/index.md
+  - Activity: Activity/index.md
+
+extra:
+  generator: false

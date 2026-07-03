@@ -1,0 +1,648 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="OK赛事联盟企业知识系统">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Content Model - OKOS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#content-model" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="OKOS" class="md-header__button md-logo" aria-label="OKOS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OKOS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Content Model
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="OKOS" class="md-nav__button md-logo" aria-label="OKOS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    OKOS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Quick/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quick
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Playbooks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Playbooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Training/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Training
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rules
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reports
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Activity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      用途
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      负责人
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      更新时间
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      版本号
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      引用关系
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l1" class="md-nav__link">
+    <span class="md-ellipsis">
+      L1 内容模型原则
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      核心业务对象
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      核心对象关系
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      对象变更规则
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      后续待完成内容
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="content-model">Content Model<a class="headerlink" href="#content-model" title="Permanent link">&para;</a></h1>
+<h2 id="_1">用途<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>定义 OKOS 的核心内容对象与业务对象，例如 Store、Team、Player、Event、Metric、SOP、Playbook、Prompt、Decision。</p>
+<h2 id="_2">负责人<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>OKOS Chief System Architect</p>
+<h2 id="_3">更新时间<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>2026-07-03</p>
+<h2 id="_4">版本号<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>v1.0.0</p>
+<h2 id="_5">引用关系<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<ul>
+<li>系统架构：<a href="../architecture/">architecture.md</a></li>
+<li>知识分类：<a href="../knowledge-taxonomy/">knowledge-taxonomy.md</a></li>
+<li>唯一可信来源地图：<a href="../source-of-truth-map/">source-of-truth-map.md</a></li>
+<li>术语表：<a href="../../GLOSSARY/">../GLOSSARY.md</a></li>
+</ul>
+<h2 id="l1">L1 内容模型原则<a class="headerlink" href="#l1" title="Permanent link">&para;</a></h2>
+<p>内容模型定义 OKOS 中长期稳定的企业对象。后续 Playbook、产品、AI 和数据都必须基于这些对象展开。</p>
+<p>在 L1 阶段，内容模型只定义对象含义和对象关系，不定义执行步骤、产品功能、AI Prompt 或数据公式。</p>
+<h2 id="_6">核心业务对象<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>对象</th>
+<th>含义</th>
+<th>Source of Truth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Store</td>
+<td>合作门店，是线下赛事、社群触点和玩家服务节点</td>
+<td><code>../04-stores/store-model.md</code></td>
+</tr>
+<tr>
+<td>Team</td>
+<td>战队，是玩家组织化参与赛事和社群活动的基本单位</td>
+<td><code>../05-teams/team-model.md</code></td>
+</tr>
+<tr>
+<td>Player</td>
+<td>玩家，是 OK赛事联盟服务的核心用户对象</td>
+<td><code>../07-community/user-lifecycle.md</code></td>
+</tr>
+<tr>
+<td>Event</td>
+<td>赛事，是连接玩家、战队、门店和合作伙伴的核心运营载体</td>
+<td><code>../06-events/event-system-overview.md</code></td>
+</tr>
+<tr>
+<td>Community</td>
+<td>社群，是玩家、战队、门店和运营团队持续互动的关系网络</td>
+<td><code>../07-community/community-model.md</code></td>
+</tr>
+<tr>
+<td>Partner</td>
+<td>合作伙伴，是向 OK赛事联盟提供资源、品牌、场地或商业合作的外部组织</td>
+<td><code>../13-partnerships/partnership-model.md</code></td>
+</tr>
+<tr>
+<td>Sponsor</td>
+<td>赞助商，是以资金、资源或品牌权益交换赛事和社群合作价值的合作伙伴</td>
+<td><code>../13-partnerships/partner-types.md</code></td>
+</tr>
+<tr>
+<td>Product</td>
+<td>数字产品，是承载报名、信息、运营和数据闭环的小程序或系统能力</td>
+<td><code>../08-product/product-vision.md</code></td>
+</tr>
+<tr>
+<td>Knowledge</td>
+<td>企业知识，是可长期复用、可被引用、可被审核的组织资产</td>
+<td><code>knowledge-taxonomy.md</code></td>
+</tr>
+<tr>
+<td>Standard</td>
+<td>标准，是被确认后可作为执行依据的规则或定义</td>
+<td><code>source-of-truth-map.md</code></td>
+</tr>
+<tr>
+<td>SOP</td>
+<td>标准作业流程，是单一、重复、稳定动作的操作流程</td>
+<td><code>../19-sops/README.md</code></td>
+</tr>
+<tr>
+<td>Playbook</td>
+<td>执行剧本，是面向复杂目标的跨角色打法</td>
+<td><code>../18-playbooks/README.md</code></td>
+</tr>
+<tr>
+<td>Prompt</td>
+<td>AI Prompt，是可版本管理的 AI 工作指令</td>
+<td><code>../21-prompts/README.md</code></td>
+</tr>
+<tr>
+<td>Metric</td>
+<td>指标，是衡量业务对象和业务结果的口径</td>
+<td><code>../09-data/metrics-definition.md</code></td>
+</tr>
+<tr>
+<td>Decision</td>
+<td>决策记录，是重大取舍的组织记忆</td>
+<td><code>../20-decision-records/README.md</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_7">核心对象关系<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Store 承载 Event，也连接本地 Player 和 Community。</li>
+<li>Team 由 Player 组成，并通过 Event 形成成绩、声誉和成长记录。</li>
+<li>Event 连接 Player、Team、Store、Community、Partner 和 Sponsor。</li>
+<li>Community 维持 Player 和 Team 的长期活跃。</li>
+<li>Partner 和 Sponsor 通过 Event、Store、Community 获得合作价值。</li>
+<li>Product 将 Store、Team、Player、Event 和 Community 的动作线上化。</li>
+<li>Metric 用于衡量上述对象，但正式公式在 L5 Data 定义。</li>
+<li>SOP 和 Playbook 调用这些对象，但具体执行在 L2 定义。</li>
+<li>Prompt 读取这些对象和标准，但正式 Prompt 在 L4 定义。</li>
+</ul>
+<h2 id="_8">对象变更规则<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<p>修改核心业务对象定义时，必须检查：
+- <code>GLOSSARY.md</code>
+- <code>source-of-truth-map.md</code>
+- 相关业务域模型文档
+- 可能受影响的 SOP、Playbook、产品、AI 和数据文档</p>
+<h2 id="_9">后续待完成内容<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<ul>
+<li>L1 确认后冻结核心业务对象第一版。</li>
+<li>L2 阶段补充 SOP 与 Playbook 对象调用方式。</li>
+<li>L5 阶段补充 Metric 的正式数据口径。</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
