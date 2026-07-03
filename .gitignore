@@ -16,4 +16,5 @@ exports/
 dist/
 build/
 site/
+okos_app/drafts/*.json
 *.log
