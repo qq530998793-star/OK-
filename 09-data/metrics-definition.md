@@ -4,13 +4,13 @@
 定义 OK赛事联盟所有核心指标的唯一口径。
 
 ## 负责人
-Data Owner
+李豪大王
 
 ## 更新时间
 2026-07-03
 
 ## 版本号
-v1.0.0
+v1.0.1
 
 ## 引用关系
 - 数据字典：[data-dictionary.md](data-dictionary.md)

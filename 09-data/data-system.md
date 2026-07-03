@@ -4,13 +4,13 @@
 定义 OKOS L5 Data 的数据治理体系、分层模型、权责边界和持续扩展规则。
 
 ## 负责人
-Data Owner
+李豪大王
 
 ## 更新时间
 2026-07-03
 
 ## 版本号
-v1.0.0
+v1.0.1
 
 ## 引用关系
 - 企业宪章：[../01-strategy/enterprise-charter.md](../01-strategy/enterprise-charter.md)
@@ -51,4 +51,3 @@ Data Owner 负责字典、指标、质量和发布；Business Owner 负责业务
 ## 后续待完成内容
 - 接入真实产品后登记物理表、接口和数据血缘。
 - 建立自动质量监控与指标版本仓库。
-

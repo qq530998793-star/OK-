@@ -4,13 +4,13 @@
 定义经营报表、运营报表、门店报表、赛事报表和社群报表的体系。
 
 ## 负责人
-Data Owner
+李豪大王
 
 ## 更新时间
 2026-07-03
 
 ## 版本号
-v1.0.0
+v1.0.1
 
 ## 引用关系
 - 指标定义：[metrics-definition.md](metrics-definition.md)

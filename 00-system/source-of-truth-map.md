@@ -10,7 +10,7 @@ OKOS Governance Owner
 2026-07-03
 
 ## 版本号
-v1.2.0
+v1.2.1
 
 ## 引用关系
 - 企业宪章：[../01-strategy/enterprise-charter.md](../01-strategy/enterprise-charter.md)
@@ -72,13 +72,13 @@ v1.2.0
 | AI 审核规则 | `10-ai/ai-review-policy.md` | AI Owner |
 | Prompt 管理规则 | `21-prompts/README.md` | AI Owner |
 | Prompt 索引 | `21-prompts/prompt-index.md` | AI Owner |
-| 数据基础规则 | `09-data/README.md` | Data Owner |
-| 数据治理体系 | `09-data/data-system.md` | Data Owner |
-| 数据字典 | `09-data/data-dictionary.md` | Data Owner |
-| 指标口径 | `09-data/metrics-definition.md` | Data Owner |
-| 数据质量规则 | `09-data/data-quality.md` | Data Owner |
-| 报表体系 | `09-data/reporting-system.md` | Data Owner |
-| 看板规格 | `09-data/dashboard-specs.md` | Data Owner |
+| 数据基础规则 | `09-data/README.md` | 李豪大王 |
+| 数据治理体系 | `09-data/data-system.md` | 李豪大王 |
+| 数据字典 | `09-data/data-dictionary.md` | 李豪大王 |
+| 指标口径 | `09-data/metrics-definition.md` | 李豪大王 |
+| 数据质量规则 | `09-data/data-quality.md` | 李豪大王 |
+| 报表体系 | `09-data/reporting-system.md` | 李豪大王 |
+| 看板规格 | `09-data/dashboard-specs.md` | 李豪大王 |
 | 数据隐私规则 | `09-data/privacy-policy.md` | Compliance Owner |
 
 ## 引用关系要求

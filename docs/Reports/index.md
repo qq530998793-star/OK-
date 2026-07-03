@@ -4,13 +4,13 @@
 提供指标、数据质量、报表与看板文档的网站导航。
 
 ## 负责人
-Data Owner
+李豪大王
 
 ## 更新时间
 2026-07-03
 
 ## 版本号
-v1.0.0
+v1.0.1
 
 ## 引用关系
 - 数据体系：[../_source/09-data/data-system.md](../_source/09-data/data-system.md)

@@ -1,4 +1,4 @@
-# OKOS V1.2.1
+# OKOS V1.2.2
 
 ## 用途
 OKOS 是 OK赛事联盟的企业操作系统仓库入口，用于统一管理战略、运营、门店、赛事、社群、产品、数据、AI 协同与企业标准。
@@ -10,7 +10,7 @@ OKOS Chief System Architect
 2026-07-03
 
 ## 版本号
-v1.2.1
+v1.2.2
 
 ## 引用关系
 - 全局索引：[OKOS-INDEX.md](OKOS-INDEX.md)

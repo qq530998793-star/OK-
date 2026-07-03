@@ -10,12 +10,17 @@ OKOS Governance Owner
 2026-07-03
 
 ## 版本号
-v1.2.1
+v1.2.2
 
 ## 引用关系
 - 版本规范：[00-system/versioning-policy.md](00-system/versioning-policy.md)
 - 治理规则：[GOVERNANCE.md](GOVERNANCE.md)
 - 企业宪章：[01-strategy/enterprise-charter.md](01-strategy/enterprise-charter.md)
+
+## v1.2.2
+### 2026-07-03
+- Reports/Data 模块负责人统一更新为“李豪大王”。
+- 同步更新数据 Source of Truth、数据上报 SOP 和数据分析 Prompt 的责任归属。
 
 ## v1.2.1
 ### 2026-07-03

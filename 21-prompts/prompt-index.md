@@ -10,7 +10,7 @@ AI Owner
 2026-07-03
 
 ## 版本号
-v1.0.0
+v1.0.1
 
 ## 引用关系
 - Prompt 目录：[README.md](README.md)
@@ -23,7 +23,7 @@ v1.0.0
 | P-OP-001 | 运营任务编排 | AI-OP-001 | Pilot | R2 | v0.1.0 | Operations Owner |
 | P-CT-001 | 合规内容草案 | AI-CT-001 | Pilot | R2/R3 | v0.1.0 | Marketing Owner |
 | P-PD-001 | 产品需求整理 | AI-PD-001 | Pilot | R2 | v0.1.0 | Product Owner |
-| P-DA-001 | 数据分析与指标解释 | AI-DA-001 | Pilot | R2/R3 | v0.1.0 | Data Owner |
+| P-DA-001 | 数据分析与指标解释 | AI-DA-001 | Pilot | R2/R3 | v0.1.1 | 李豪大王 |
 
 Pilot Prompt 仅允许在受控场景试用，所有输出须按风险等级复核。
 
