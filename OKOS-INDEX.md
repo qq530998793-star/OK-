@@ -10,7 +10,7 @@ OKOS Chief System Architect
 2026-07-03
 
 ## 版本号
-v1.0.0
+v1.2.0
 
 ## 引用关系
 - 仓库入口：[README.md](README.md)
@@ -26,6 +26,8 @@ v1.0.0
 - 模板库：[17-templates/README.md](17-templates/README.md)
 - 决策记录：[20-decision-records/README.md](20-decision-records/README.md)
 - 人工批准写入决策：[20-decision-records/DR-0005-human-approved-knowledge-writes.md](20-decision-records/DR-0005-human-approved-knowledge-writes.md)
+- MkDocs 发布决策：[20-decision-records/DR-0006-mkdocs-publishing-layer.md](20-decision-records/DR-0006-mkdocs-publishing-layer.md)
+- 网站配置：[mkdocs.yml](mkdocs.yml)
 
 ## L0 Core Index
 L0 Core 是 OKOS 的最高原则层。其他层级的内容必须服从 L0 Core。

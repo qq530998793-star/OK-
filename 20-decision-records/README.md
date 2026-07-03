@@ -25,6 +25,7 @@ Decision Record 使用连续编号 `DR-NNNN-kebab-case-title.md`。状态为 Pro
 - [DR-0003：Event Type Taxonomy](DR-0003-event-type-taxonomy.md)
 - [DR-0004：AI Review Policy](DR-0004-ai-review-policy.md)
 - [DR-0005：Human-Approved Knowledge Writes](DR-0005-human-approved-knowledge-writes.md)
+- [DR-0006：MkDocs Publishing Layer](DR-0006-mkdocs-publishing-layer.md)
 
 ## 后续待完成内容
 - 逐步补全早期 Decision Record 的正式决策正文。

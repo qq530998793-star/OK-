@@ -10,13 +10,14 @@ OKOS Governance Owner
 2026-07-03
 
 ## 版本号
-v1.1.0
+v1.2.0
 
 ## 引用关系
 - 治理规则：[../GOVERNANCE.md](../GOVERNANCE.md)
 - 审核规范：[review-policy.md](review-policy.md)
 - 版本规范：[versioning-policy.md](versioning-policy.md)
 - 人工批准写入决策：[../20-decision-records/DR-0005-human-approved-knowledge-writes.md](../20-decision-records/DR-0005-human-approved-knowledge-writes.md)
+- MkDocs 发布决策：[../20-decision-records/DR-0006-mkdocs-publishing-layer.md](../20-decision-records/DR-0006-mkdocs-publishing-layer.md)
 
 ## 分支规则
 - `main` 是主知识库，只保存已批准的 Active 内容。
@@ -39,6 +40,9 @@ v1.1.0
 
 ## Codex 权限
 Codex 可以读取知识库、生成 Draft、执行检查和准备 PR；未经明确批准，不得修改主知识库、合并 PR、发布版本或改变保护规则。
+
+## GitHub Pages
+知识库网站由 `mkdocs.yml` 和 `docs/` 发布入口管理。构建过程可读取权威 Markdown，但不得在 `docs/` 重复维护业务正文。部署工作流输出到 `gh-pages`，首次启用和权限配置由人类仓库管理员完成。
 
 ## 后续待完成内容
 - 替换 CODEOWNERS 中的占位账号。

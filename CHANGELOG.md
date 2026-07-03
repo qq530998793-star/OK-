@@ -10,12 +10,19 @@ OKOS Governance Owner
 2026-07-03
 
 ## 版本号
-v1.1.0
+v1.2.0
 
 ## 引用关系
 - 版本规范：[00-system/versioning-policy.md](00-system/versioning-policy.md)
 - 治理规则：[GOVERNANCE.md](GOVERNANCE.md)
 - 企业宪章：[01-strategy/enterprise-charter.md](01-strategy/enterprise-charter.md)
+
+## v1.2.0
+### 2026-07-03
+- 新增 MkDocs Material 中文知识库网站。
+- 建立 Quick、Playbooks、Training、Rules、Reports 和 Activity 导航。
+- 使用构建期虚拟页面读取权威 Markdown，避免重复维护业务正文。
+- 新增 GitHub Pages 部署工作流和 DR-0006：MkDocs Publishing Layer。
 
 ## v1.1.0
 ### 2026-07-03

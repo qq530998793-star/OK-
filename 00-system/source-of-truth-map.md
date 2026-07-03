@@ -10,7 +10,7 @@ OKOS Governance Owner
 2026-07-03
 
 ## 版本号
-v1.0.0
+v1.2.0
 
 ## 引用关系
 - 企业宪章：[../01-strategy/enterprise-charter.md](../01-strategy/enterprise-charter.md)
@@ -37,6 +37,7 @@ v1.0.0
 | 仓库权限与协作规则 | `00-system/repository-governance.md` | OKOS Governance Owner |
 | 审核规则 | `00-system/review-policy.md` | OKOS Governance Owner |
 | 版本规则 | `00-system/versioning-policy.md` | OKOS Governance Owner |
+| 知识库网站发布规则 | `20-decision-records/DR-0006-mkdocs-publishing-layer.md` | OKOS Governance Owner |
 | 门店模型 | `04-stores/store-model.md` | Store Operations Owner |
 | 战队模型 | `05-teams/team-model.md` | Team Operations Owner |
 | 赛事体系 | `06-events/event-system-overview.md` | Event Operations Owner |

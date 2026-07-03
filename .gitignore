@@ -6,6 +6,7 @@ desktop.ini
 # Editor and workspace state
 .vscode/
 .idea/
+.venv*/
 *.swp
 *.tmp
 *.bak
@@ -14,5 +15,5 @@ desktop.ini
 exports/
 dist/
 build/
+site/
 *.log
-
